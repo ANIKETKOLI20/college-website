@@ -1,0 +1,46 @@
+.code-of-conduct-container{
+    background-image: linear-gradient(to bottom, #00E7FF, #1002D4);
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.management-container{
+    color: white;
+}
+
+.intro-of-management{
+    width: 60vw;
+    margin-top: 70px;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+
+.who-is-he{
+    font-size: 10px;
+    align-self: flex-start;
+    opacity: 0.6;
+    margin-top: 25px;
+}
+
+.his-name{
+    align-self: flex-start;
+    font-size: 10px;
+}
+
+.review-bottom-section{
+    color: #ffffff;
+}
+
+
+@media screen and (min-width:768px) {
+    
+.management-container{
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    margin-left: 30vw;
+}
+}

@@ -1,0 +1,20 @@
+.loading-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.hostel-container{
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #00E7FF, #1002D4);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.footer {
+    margin-top: auto; 
+    padding: 10px; 
+  }
+  

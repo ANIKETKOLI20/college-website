@@ -1,0 +1,99 @@
+.principal-section-container{
+    background-image: linear-gradient(to bottom, #00E7FF, #1002D4);
+    min-height: 120vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.principal-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    margin-top: 70px;
+    color: aliceblue;
+    margin-bottom: 30px;
+}
+
+.principal-name{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.principal{
+    height: 400px;
+    text-align: center;
+    padding-left: 3px;
+}
+
+.principal-quote{
+    text-align: left;
+}
+
+.principal-first-quote{
+    color: #F56960;
+    font-size: 60px;
+}
+
+.principal-quote-heading{
+    font-size: 15px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.principal-second-quote{
+    margin-left: 45vw;
+    color: #F56960;
+    font-size: 60px;
+}
+
+.pocket-of-container{
+    display: flex;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+
+.each-principal-container{
+    background-image: linear-gradient(to right, #1821F2, #f5b960);
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+.each-principal-container-heading{
+    font-size: 15px;
+    padding-top: 15px;
+    opacity: 0.7;
+}
+
+.degree{
+    color: #ffffff;
+}
+
+@media screen and (max-width:768px){
+    .principal-second-quote{
+        margin-left: 70vw;
+        color: #F56960;
+        font-size: 60px;
+    }
+    
+    .principal{
+        height: 200px;
+        
+    }
+
+    .pocket-of-container{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        flex-wrap: wrap;
+    }
+
+    .each-principal-container{
+        margin-bottom: 20px;
+    }
+}

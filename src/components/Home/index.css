@@ -1,0 +1,432 @@
+
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+
+
+
+
+
+
+.home-container {
+    background-image: linear-gradient(to bottom, #00E7FF, #1002D4);
+    min-height: 100vh;
+    width: 100vw;
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+
+.home-banner{
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.college-logo{
+    height: 60px;
+    margin-right: 12vw;
+    margin-left: 12vw;
+}
+
+.home-college-heading{
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+}
+
+.num-email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.college-heading{
+    color: #F56960;
+    font-family:sans-serif;
+}
+
+.num-para{
+    color: #F56960;
+}
+
+.home-course-info{
+    background-image: url("https://img.freepik.com/premium-photo/there-are-many-graduates-that-are-throwing-their-hats-air-generative-ai_900370-49709.jpg?size=626&ext=jpg&ga=GA1.1.176961903.1661757094&semt=sph");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80vw;
+    height: 400px;
+    margin-left: 10vw;
+
+}
+
+.poster-heading{
+    padding-top: 100px;
+    margin: 20px;
+}
+
+.check-course-button{
+    margin: 13px;
+    background-color: #F56960;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.latest-update{
+    background-image: linear-gradient(to right, #1821F2, #F56960);
+    margin: 50px;
+    color: #ffffff;
+    padding: 20px;
+    padding-bottom: 80px;
+
+}
+
+.latest-heading{
+    text-align: center;
+}
+
+.latest-container{
+    display: flex;
+    margin: 13px;
+}
+
+.latest-para-decorative{
+    color: #FFFFFF;
+    margin-left: 40px;
+    font-weight: bold;
+}
+
+.latest-para{
+    color: #FFFFFF;
+    text-decoration: underline;
+    margin-left: 60px;
+    font-weight: bold;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.latest-top{
+    display: flex;
+    flex-direction: column;
+}
+
+.check-button{
+    margin-left: 50px;
+    background-color: #F56960;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.date{
+    text-align: left;
+    margin-left: 60px;
+    margin-top: 10px;
+    color: #666362;
+}
+
+.latest-bottom{
+    padding-left: 9px;
+}
+
+.review-section{
+    background-image: linear-gradient(to right, #1821F2, #F56960);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+    color: #ffffff;
+    
+}
+
+.review-top-section{
+    display: flex;
+}
+
+.first-quote{
+    font-size: 60px;
+    color: #F56960;
+    margin-left: 60px;
+    
+}
+
+.reviewer-photo{
+    width: 600px;
+    height: 360px;
+    margin-top: 30px;
+    
+}
+
+.reviewer-container{
+    background-image: linear-gradient(to right, #1821F2, #F56960);
+    display: flex;   
+    flex-direction: column;   
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 50vw;
+}
+
+.senior-college-section-desktop{
+    display: flex;
+    margin-left: 20vw;
+    margin-top: 20px;
+}
+
+.reviewer-name{
+    font-weight: normal;
+    align-self: flex-end;
+    margin-right: 20px;
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+.second-quote{
+    align-self: flex-end;
+    color: #F56960;
+    font-size: 60px;
+}
+
+.review-bottom-section{
+    display: flex;
+    justify-content: center;
+    font-size: 13px;
+    margin: 10px;
+    text-decoration: underline;
+
+}
+
+.see-more{
+    background-color: transparent;
+    border: none;
+    color: white;
+    margin-left: 15px;
+    margin-bottom: 20px;
+}
+
+.arrow{
+    font-size: 17px;
+    margin-left: 1px;
+}
+
+
+.course-offered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFFFFF;
+    width: 92vw;
+    margin-left: 3vw;
+}
+
+.senior-college-section{
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.stream-heading{
+    font-weight: normal;
+    text-align: left;
+    margin-top: 15px;
+    font-size: 30px;
+    margin-left: 25px;
+}
+
+.minimise-maximise{
+    display: flex;
+}
+
+.group-section{
+    background-image: linear-gradient(to right, #1821F2, #f5b960);
+    border-radius: 10px;
+    margin: 25px;
+    padding: 15px;
+}
+
+.group-title{
+    font-size: 20px;
+    color: #F56960;
+    margin-bottom: 15px;
+}
+
+.subject{
+    text-align: left;
+    margin-left: 25px;
+}
+
+.subject-para{
+    margin-bottom: 7px;
+}
+
+.group-apply-button-1{
+        background-color: #1821F2;
+        border-radius: 10px;
+        height: 30px;
+        border: none;
+        margin-right: 15px;
+        margin-top: 15px;
+        color: white;
+}
+
+.group-apply-button-2{
+    background-color: #F56960;
+    border-radius: 10px;
+    height: 30px;
+    border: none;
+    margin-right: 15px;
+    margin-top: 15px;
+    color: white;
+    width: 65px;
+}
+
+.add-minus-icon{
+    color: #F56960;
+    height: 30px;
+    font-size: 60px;
+}
+
+
+.carousal-container{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    margin-left: 5px;
+}
+
+.caro-image{
+    height: 360px;
+    border-radius: 15px;
+    
+}
+
+.slick-dots {
+    position: absolute;
+    bottom: 10px;
+    list-style: none;
+    text-align: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .slick-dots li button {
+    font-size: 12px;
+    border: 1px solid #fff; 
+    background-color: #fff; 
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    text-indent: -9999px;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+  }
+  
+  .slick-dots li.slick-active button {
+    opacity: 1;
+  }
+  
+  .group-title-junior{
+    font-size: 12px;
+    margin: 15px;
+  }
+  
+  
+  .group-apply-button-3{
+    background-color: #F56960;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    margin-right: 35px;
+    margin-top: 15px;
+    color: white;
+    width: 120px;
+}
+
+.senior-college-section-mobile{
+    display: none;
+}
+
+
+
+@media screen and (max-width:480px){
+    .review-top-section{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .reviewer-photo{
+        height: 250px;
+        width: 250px;
+    }
+
+    .reviewer-container{
+        width: 300px;
+    }
+
+    .senior-college-section-desktop{
+        display: none;
+    }
+
+    .senior-college-section-mobile{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vw;
+        margin-top: 30px;
+    }
+
+    .caro-image-mobile {
+        height: 200px;
+        width: 400px;
+        
+    }
+    
+    .caro-image,
+    .caro-image-mobile {
+        max-width: 50%; /* Ensure the image doesn't exceed its container width */
+    }
+
+    .carousal-container {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        width: 250px; /* Adjust the width based on your preference */
+        margin-left: 5px;
+    }
+    
+    .pic-rotate{
+        margin-left: 90px;
+    }
+
+    .stream-heading{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+}

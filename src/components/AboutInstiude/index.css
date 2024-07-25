@@ -1,0 +1,22 @@
+.code-of-conduct-container{
+    background-image: linear-gradient(to bottom, #00E7FF, #1002D4);
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.circle-container{
+    display: flex;
+    margin-left: 50px;
+}
+
+.circle-img{
+    height: 300px;
+}
+
+.flex-container {
+    display: flex;
+  }
+  

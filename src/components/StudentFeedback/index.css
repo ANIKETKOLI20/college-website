@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.student-feedback-container{
+    background-image: linear-gradient(to bottom, #00E7FF, #1002D4);
+    min-height: 100vh;
+    background-size: cover;
+
+}

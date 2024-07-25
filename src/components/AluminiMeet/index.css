@@ -1,0 +1,71 @@
+.al-heading{
+    margin-bottom: 70px;
+}
+
+.al-heading-year{
+    margin-top: 40px;
+    color: #ffffff;
+}
+
+.top-box{
+    margin-top: 70px;
+}
+
+.boxes-of-images{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-1{
+    height: 295px;
+    width: 200px;
+    margin-right: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.vertical-column{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.top-2{
+    height: 140px;
+    width: 200px;
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.top-3{
+    height: 295px;
+    width: 150px;
+    margin-left: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bottom-1{
+    height: 330px;
+    width: 230px;
+}
+
+.bottom-first-2{
+    height: 150px;
+    width: 340px;
+    margin-left: 10px;
+}
+
+.bottom-2{
+    height: 180px;
+    width: 180px;
+}
+
+.last-bottom{
+    height: 180px;
+    width: 170px;
+    margin-left: 10px;
+    margin-top: 10px;
+}

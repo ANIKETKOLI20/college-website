@@ -1,0 +1,158 @@
+.footer-section{
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-container {
+    background-image: linear-gradient(to right, #1821F2, #f5b960);
+    margin-top: 200px;
+    color: white;
+    width: 90vw;
+    margin-left: 5vw;
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px; 
+    font-size: 10px;
+  }
+  
+  .footer-for-small{
+    display: none;
+  }
+  
+  .individual {
+    margin-top: 15px;
+    text-align: center; 
+  }
+  
+  .footer-ul {
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0; 
+  }
+  
+  .footer-ul li {
+    margin-top: 25px; 
+  }
+  
+  .footer-para{
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 7px;
+    margin: 0px;
+  }
+
+  .address{
+    display: flex;
+    font-size: 15px;
+    margin-top: 20px;
+    max-width: 300px;
+  }
+
+  .loco-icon{
+    font-size: 40px;
+  }
+
+  .address-para{
+    margin-left: 7px;
+  }
+
+  .call-icon{
+    font-size: 20px;
+  }
+
+  .contact-container{
+    margin-left: 15px;
+    text-align: left;
+    margin-top: 15px;
+    font-size: 15px;
+  }
+
+  .contact-para{
+    margin: 15px;
+  }
+
+  .social-platform{
+    display: flex;
+    margin-left: 25px;
+  }
+
+  .social-icon{
+    font-size: 30px;
+    margin-right: 18px;
+  }
+  
+  
+
+  .footer-college-logo{
+    height: 100px;
+    margin-top: 50px;
+  }
+
+  .copyright{
+    background-color: #261F22;
+    display: flex;
+    justify-content: space-around;
+    width: 90vw;
+    margin-left: 5vw;
+    color: white;
+  }
+
+  .copyright-heading{
+    font-size: 15px;
+    margin: 20px;
+  }
+
+  .developed_by{
+    display: flex;
+  }
+
+  .span{
+    color: #0EF919;
+  }
+
+  @media screen and (max-width: 768px) {
+    .footer-container {
+      display: none;
+    }
+  
+    .footer-for-small {
+      width: 90vw;
+      margin-left: 5vw;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .footer-bar {
+      width: 90vw;
+      display: flex;
+      justify-content: space-between;
+      background-color: #fff;
+      border-bottom: 2px solid black;
+    }
+    
+    .footer-button {
+      margin-left: 15px;
+      border: none;
+    }
+    
+    .footer-sub-bar {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .footer-para-small{
+      text-align: left;
+      margin-left: 15px;
+      font-size: 15px;
+      
+    }
+
+    .footer-ul{
+      margin-bottom: 10px;
+      background-color: #fff;
+      padding: 10px;
+      margin-top: 0px;
+    }
+    
+  }
+  

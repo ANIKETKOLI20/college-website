@@ -1,0 +1,6 @@
+.full-width-menu {
+  width: 100vw !important;
+  display: flex;
+  justify-content: center;
+}
+
