@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+College Website Project
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Table of Contents
+[Introduction](#introduction)
+[Features](#features)
+[Home Page](#home-page)
+[About Us](#aboutus)
+[Academics](#academics)
+[Faculty](#faculty)
+[Gallery](#gallery)
+[Contact Us](#contactus)
+[Technologies Used](#technologiesused)
 
-## Available Scripts
 
-In the project directory, you can run:
+Introduction
+This project is a comprehensive website for a school, designed to provide detailed information about the school, its history, academics, faculty, and more. The website features a user-friendly interface with quick links to important sections, a photo and video gallery, and contact information.
 
-### `npm start`
+Features
+Home Page
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Introduction: Provides an overview of the school, including its name, logo, and a brief description.
+Carousel/Banner: Showcases key highlights or events at the school.
+Quick Links: Easy access to important sections of the website.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+About Us
+History, Vision, Mission, and Values: Detailed information about the school's background and philosophy.
+Message from the Principal: A welcome message from the principal or head of the institution.
+Infrastructure and Facilities: Information about the school's infrastructure and facilities.
+Academics
 
-### `npm test`
+Curriculum Information: Details about the curriculum offered at various levels (primary, secondary, senior secondary).
+Subjects and Teaching Methodologies: Information about the subjects taught and the teaching methodologies employed.
+Educational Resources: Resources available for students and faculty.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Faculty
 
-### `npm run build`
+Faculty Profiles: Profiles of the teaching and administrative staff.
+Qualifications and Experience: Detailed qualifications and experience of the faculty members.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Gallery
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Photo and Video Gallery: Showcases school events, activities, and infrastructure.
+Filter Functionality: Allows filtering of gallery items by event type or date.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Contact Us
 
-### `npm run eject`
+Contact Information: School’s address, contact numbers, and email.
+Contact Form: A form to get in touch with the school.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Technologies Used
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Frontend: HTML, CSS, JavaScript, React.js
+Styling: react-icon
